@@ -59,6 +59,8 @@ color: */
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -120,6 +122,11 @@ color: */
 .hero-title {
   color: var(--wite-color);
 
+  outline: 2px solid tomato;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -127,6 +134,7 @@ color: */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .section .section-subtitle {
@@ -136,13 +144,17 @@ color: */
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 26px;
+  margin-top: 0;
 }
 
-.section .section-title {
+.section-title {
   color: var(--dark-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .section .section-titles {
@@ -160,6 +172,8 @@ color: */
 
 .hero {
   background: #2f303a;
+  display: inline-block;
+  text-align: center;
 }
 .hero-button {
   color: var(--wite-color);
@@ -170,7 +184,7 @@ color: */
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
