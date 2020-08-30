@@ -77,10 +77,15 @@ html {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .margin {
   margin-bottom: 20px;
+}
+
+.margin-botton {
+  padding-bottom: 94px;
 }
 
 .logo.current .logoacc {
@@ -139,6 +144,7 @@ html {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .info:hover {
   color: var(--accent-color);
@@ -161,6 +167,7 @@ html {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .tel:hover {
   color: var(--accent-color);
@@ -171,7 +178,10 @@ html {
 .sec {
   padding-top: 94px;
   padding-bottom: 94px;
+}
 
+.secc{
+   padding-bottom: 94px;
 }
 
 .flex {
@@ -183,26 +193,38 @@ html {
 }
 
 /* герой */
-
+/* 1111111111111111111111111 */
 .container-one {
   width: 1600px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 }
 
-.container-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+ .hero.container-hero {
+  /* margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 452px;
+  margin-left: 452px; */
+    /* width: 1600px;
+height: 600px; */
+ display: block; 
+}  
+
 
 .hero {
   background: #2f303a;
   display: block;
   text-align: center;
- 
 }
+
 .hero-title {
   color: var(--wite-color);
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  margin: 0;
 
   font-weight: 900;
   font-size: 44px;
@@ -211,7 +233,7 @@ html {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  
   /* padding: 200px 452px 280px; */
 }
 
@@ -219,11 +241,10 @@ html {
 
 .container {
   width: 1600px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .section {
@@ -238,7 +259,10 @@ html {
   margin-right: 30px;
 }
 
+.paragraf{
+    width: 270px}
 /* шапка */
+
 .site-nav {
   display: flex;
 }
@@ -271,6 +295,12 @@ html {
 
 .rob:not(:last-child) {
   margin-right: 30px;
+}
+
+img:{
+  display: block;
+  max-width: 100%;
+  height:auto;
 }
 
 /* наша команда */
@@ -379,14 +409,15 @@ html {
   text-align: center;
   letter-spacing: 0.06em;
 
-  padding:
-    10px 32px;
-  
+  padding: 10px 32px;
+
+  margin-bottom: 200px;
+
   /* width: 200px;
   height: 50px; */
 
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .container-button .button {
@@ -394,8 +425,8 @@ border-radius: 4px;
   font-size: 16px;
   line-height: 1.62;
   padding: 6px 22px;
-  background: #F5F4FA;
-border-radius: 4px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .container-button .button:not(:last-child) {
@@ -450,7 +481,7 @@ border-radius: 4px;
 
   padding-bottom: 50px;
   padding-top: 94px;
- 
+}
 
 .text {
   padding-right: 24px;
