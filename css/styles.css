@@ -186,36 +186,44 @@ html {
 
 /* герой */
 /* 1111111111111111111111111 */
-.container-one {
+/* .container-one {
   width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 }
 
  .hero.container-hero {
-  /* margin-top: 200px;
+   /* margin-top: 200px;
   margin-bottom: 200px;
   margin-right: 452px;
-  margin-left: 452px; */
-    /* width: 1600px;
-height: 600px; */
- display: block; 
-}  
+  margin-left: 452px;  */
+  
+  margin-right: auto;
+  margin-left: auto;
+
+    width: 1600px;
+  }
+ 
+ 
 
 
 .hero {
   background: #2f303a;
   display: block;
   text-align: center;
+   margin-right: auto;
+  margin-left: auto;
+
+    width: 1600px;
 }
 
 .hero-title {
   color: var(--wite-color);
   padding-top: 200px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   margin: 0;
 
   font-weight: 900;
@@ -274,8 +282,7 @@ height: 600px; */
   justify-content: flex-end;
 }
 
-.page-header {
-  padding-top: 24px;
+
  
 }
 
@@ -307,6 +314,10 @@ height: 600px; */
 
 .fon {
   background: #2f303a;
+   margin-right: auto;
+  margin-left: auto;
+
+    width: 1600px;
 }
 
 .footer {
